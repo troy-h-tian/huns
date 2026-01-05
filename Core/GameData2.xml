@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GameData2 -->
+<!-- Author: Troy Tian -->
+<!-- DateCreated: 10/26/2024 2:22:09 PM -->
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_THT_CIVILIZATION_HUNS_NAME" Language="en_US">
+			<Text>Huns</Text>
+		</Row>
+		<Row Tag="LOC_THT_CIVILIZATION_HUNS_DESCRIPTION" Language="en_US">
+			<Text>Hunnic Empire</Text>
+		</Row>
+		<Row Tag="LOC_THT_CIVILIZATION_HUNS_ADJECTIVE" Language="en_US">
+			<Text>Hunnic</Text>
+		</Row>
+		<Row Tag="LOC_THT_CITY_NAME_ATTILAS_COURT" Language="en_US">
+			<Text>Attila's Court</Text>
+		</Row>
+		<Row Tag="LOC_THT_TRAIT_CIVILIZATION_NOMADIC_PASTORALISTS_NAME" Language="en_US">
+			<Text>Nomadic Pastoralists</Text>
+		</Row>
+		<Row Tag="LOC_THT_TRAIT_CIVILIZATION_NOMADIC_PASTORALISTS_DESCRIPTION" Language="en_US">
+			<Text>+50% [ICON_Production] Production towards all cavalry units.</Text>
+		</Row>
+		<Row Tag="LOC_THT_TRAIT_CIVILIZATION_UNIT_HUNNIC_MOUNTED_ARCHER_NAME" Language="en_US">
+			<Text>Mounted Archer</Text>
+		</Row>
+		<Row Tag="LOC_THT_TRAIT_CIVILIZATION_IMPROVEMENT_WINTER_QUARTERS_NAME" Language="en_US">
+			<Text>Winter Quarters</Text>
+		</Row>
+		<Row Tag="LOC_THT_UNIT_HUNNIC_MOUNTED_ARCHER_NAME" Language="en_US">
+			<Text>Mounted Archer</Text>
+		</Row>
+		<Row Tag="LOC_THT_IMPROVEMENT_WINTER_QUARTERS_NAME" Language="en_US">
+			<Text>Winter Quarters</Text>
+		</Row>
+		<Row Tag="LOC_THT_IMPROVEMENT_WINTER_QUARTERS_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct Winter Quarters, unique to the Huns. All Hunnic units healing on a Winter Quarters heal fully.</Text>
+		</Row>
+		<Row Tag="LOC_THT_UNIT_HUNNIC_MOUNTED_ARCHER_DESCRIPTION" Language="en_US">
+			<Text>Classical era ranged cavalry unit unique to the Huns. Unlocked at Horseback Riding. 2 [ICON_Range] Range. Upgrades to Crossbowman.</Text>
+		</Row>
+		<Row Tag="LOC_THT_LEADER_ATTILA_NAME" Language="en_US">
+			<Text>Attila</Text>
+		</Row>
+		<Row Tag="LOC_THT_PEDIA_LEADERS_PAGE_LEADER_ATTILA_QUOTE" Language="en_US">
+			<Text>You're joking, right?</Text>
+		</Row>
+		<Row Tag="LOC_THT_AGENDA_CATALAUNIAN_PLAINS_NAME" Language="en_US">
+			<Text>Battle of the Catalaunian Plains</Text>
+		</Row>
+		<Row Tag="LOC_THT_AGENDA_CATALAUNIAN_PLAINS_DESCRIPTION" Language="en_US">
+			<Text>Loves war, and respects other civs at war.</Text>
+		</Row>
+		<Row Tag="LOC_THT_TRAIT_LEADER_SCOURGE_OF_GOD_NAME" Language="en_US">
+			<Text>Scourge of God</Text>
+		</Row>
+		<Row Tag="LOC_THT_TRAIT_LEADER_SCOURGE_OF_GOD_DESCRIPTION" Language="en_US">
+			<Text>Heavy and light cavalry units deal full damage when attacking cities.</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_THT_ATTILA" Language="en_US">
+			<Text>Great Attila, ruler among the nomadic pastoralists of the Huns, you were one of the greatest enemies that mighty Rome had ever before seen. Deemed the Scourge of God, your mounted archers struck fear into the hearts of the Eastern and Western Empires alike, raiding and plundering your way through the pasturelands of the European plain. Go forth, fearsome warrior - mark the winter's end by advancing from your quarters and raze as far as your eyes can see!</Text>
+		</Row>
+	</LocalizedText>
+</GameData>
