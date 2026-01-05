@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Attila leads the Huns</Name>
+    <Guid>1590baee-b762-459c-9a94-d6e1da49d827</Guid>
+    <ProjectGuid>5ec3e0df-19f2-4bff-9249-e9f27e1709e0</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>Hunnic Empire Civ 6</Teaser>
+    <Description>Hunnic Empire Civ 6</Description>
+    <Authors>Troy Tian</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+</Associations>]]></AssociationData>
+    <AssemblyName>Attila leads the Huns</AssemblyName>
+    <RootNamespace>Attila leads the Huns</RootNamespace>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Huns_Frontend_Database"><File>Core/GameData1.sql</File></UpdateDatabase><UpdateText id="Huns_Frontend_Text"><File>Core/GameData2.xml</File></UpdateText><UpdateIcons id="Icons"><File>Icons/Icons.xml</File></UpdateIcons><UpdateArt id="Art"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Huns_Ingame_Database"><File>Core/GameData1.xml</File><File>Core/GameData2.sql</File></UpdateDatabase><UpdateText id="Huns_Ingame_Text"><File>Core/GameData2.xml</File></UpdateText><UpdateIcons id="Icons"><File>Icons/Icons.xml</File></UpdateIcons><UpdateArt id="Art"><File>(Mod Art Dependency File)</File></UpdateArt></InGameActions>]]></InGameActionData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Attila leads the Huns.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Artdefs\LeaderFallbacks.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Artdefs\Leaders.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\GameData1.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\GameData1.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\GameData2.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\GameData2.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Icons\Icons.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\Atlas.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\LeaderFallbacks.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\UILeaders.xlp">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Artdefs" />
+    <Folder Include="Core" />
+    <Folder Include="Icons" />
+    <Folder Include="XLPs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>
