@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Icons -->
+<!-- Author: Troy Tian -->
+<!-- DateCreated: 10/26/2024 2:57:57 PM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ICON_ATLAS_LEADER_THT_ATTILA" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_THT_LEADER_ATTILA_32.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_THT_ATTILA" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_THT_LEADER_ATTILA_45.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_THT_ATTILA" IconSize="48" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_THT_LEADER_ATTILA_48.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_THT_ATTILA" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_THT_LEADER_ATTILA_50.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_THT_ATTILA" IconSize="55" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_THT_LEADER_ATTILA_55.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_THT_ATTILA" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_THT_LEADER_ATTILA_64.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_THT_ATTILA" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_THT_LEADER_ATTILA_80.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_THT_ATTILA" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_THT_LEADER_ATTILA_256.dds"/>
+	</IconTextureAtlases>
+
+	<IconDefinitions>
+		<Row Name="ICON_LEADER_THT_ATTILA"				Atlas="ICON_ATLAS_LEADER_THT_ATTILA" Index="0"/>
+		
+		<Row Name="ICON_CIVILIZATION_THT_HUNS"			Atlas="ICON_ATLAS_EXPANSION_1_CIVILIZATIONS" Index="2"/>
+	</IconDefinitions>
+</GameData>
